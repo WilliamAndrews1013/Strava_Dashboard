@@ -1,0 +1,33 @@
+.activities-page {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.activities-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.map-container {
+    width: 100%;
+    min-height: 400px;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.activities-right {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .activities-page {
+        grid-template-columns: 1fr;
+    }
+}

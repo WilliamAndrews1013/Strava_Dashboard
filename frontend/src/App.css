@@ -1,0 +1,22 @@
+.page {
+  width: main(100% - 2rem, 1100px);
+  box-sizing: border-box;
+  padding: 2rem 0;
+
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.85) 
+  ),
+  url("./assets/backgorund.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.page-title {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  padding: 20px;
+}

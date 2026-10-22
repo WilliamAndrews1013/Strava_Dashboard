@@ -1,0 +1,49 @@
+.activity-heading {
+    margin-bottom: 20px;
+}
+
+.activity-heading h2 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.activity-heading span {
+    color: #777;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    gap: 12px;
+}
+
+.stat-card {
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: white;
+}
+
+.stat-title {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.stat-value {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.stat-unit {
+    margin-left: 5px;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #777;
+}
+
+.no-activity {
+    padding: 20px;
+    color: #777;
+}
